@@ -2,7 +2,7 @@ package section34Code;
 
 import java.text.MessageFormat;
 
-public class lesson271DoWhileLoops {
+public class Lesson271DoWhileLoops {
 
 	public static void main(String[] args) {
 

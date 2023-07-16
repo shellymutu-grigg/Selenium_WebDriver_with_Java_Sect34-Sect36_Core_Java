@@ -2,7 +2,7 @@ package section34Code;
 
 import java.text.MessageFormat;
 
-public class lesson276NestedForLoopsPyramidReverseExp {
+public class Lesson276NestedForLoopsPyramidReverse3 {
 
 	public static void main(String[] args) {
 

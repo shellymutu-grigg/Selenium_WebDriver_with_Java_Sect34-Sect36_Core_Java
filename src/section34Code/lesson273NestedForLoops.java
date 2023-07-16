@@ -2,7 +2,7 @@ package section34Code;
 
 import java.text.MessageFormat;
 
-public class lesson273NestedForLoops {
+public class Lesson273NestedForLoops {
 
 	public static void main(String[] args) {
 
