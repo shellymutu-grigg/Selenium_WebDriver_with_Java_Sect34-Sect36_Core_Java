@@ -1,11 +1,13 @@
 package section34Code;
 
+import java.text.MessageFormat;
+
 public class lesson272ForIfLoops {
 
 	public static void main(String[] args) {
 
 		if (5 > 2) {
-			System.out.println("success");
+			System.out.println(MessageFormat.format("Successful", "run"));
 			System.out.println("second step");
 		} else
 			System.out.println("fail");
