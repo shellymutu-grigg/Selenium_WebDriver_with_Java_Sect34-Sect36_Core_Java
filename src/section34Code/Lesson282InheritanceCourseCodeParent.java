@@ -1,10 +1,10 @@
 package section34Code;
 
-public class Lesson281InheritanceCourseCodeParent {
+public class Lesson282InheritanceCourseCodeParent {
 
 	String name = "Rahul";
 
-	public Lesson281InheritanceCourseCodeParent() {
+	public Lesson282InheritanceCourseCodeParent() {
 		System.out.println("Parent class construtor");
 	}
 

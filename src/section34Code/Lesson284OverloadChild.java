@@ -1,10 +1,10 @@
 package section34Code;
 
-public class Lesson281InheritanceCourseCodeChild extends Lesson281InheritanceCourseCodeParent {
+public class Lesson284OverloadChild extends Lesson282InheritanceCourseCodeParent {
 
 	String name = "QAClickAcademy";
 
-	public Lesson281InheritanceCourseCodeChild() {
+	public Lesson284OverloadChild() {
 		super();// this should be always be at first line
 		System.out.println("child class construtor");
 
@@ -36,13 +36,12 @@ public class Lesson281InheritanceCourseCodeChild extends Lesson281InheritanceCou
 	}
 
 	public static void main(String[] args) {
-		Lesson281InheritanceCourseCodeChild cd = new Lesson281InheritanceCourseCodeChild();
+		Lesson284OverloadChild cd = new Lesson284OverloadChild();
 
-		cd.getStringdata();
-		cd.getData();
 		cd.getData(10);
 		cd.getData("ten");
 		cd.getData(11, 12);
+
 	}
 
 }

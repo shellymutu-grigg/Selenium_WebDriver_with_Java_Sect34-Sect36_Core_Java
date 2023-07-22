@@ -11,15 +11,15 @@ public class Lesson281InheritanceParent {
 	}
 
 	public void gear() {
-		System.out.println(MessageFormat.format("Implementation of: {0} ", "gear()"));
+		System.out.println(MessageFormat.format("Parent implementation of: {0} ", "gear()"));
 	}
 
 	public void brakes() {
-		System.out.println(MessageFormat.format("Implementation of: {0} ", "brakes()"));
+		System.out.println(MessageFormat.format("Parent implementation of: {0} ", "brakes()"));
 	}
 
 	public void audioSystem() {
-		System.out.println(MessageFormat.format("Implementation of: {0} ", "audioSystem()"));
+		System.out.println(MessageFormat.format("Parent implementation of: {0} ", "audioSystem()"));
 	}
 
 }
