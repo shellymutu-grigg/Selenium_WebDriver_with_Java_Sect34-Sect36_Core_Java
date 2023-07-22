@@ -2,7 +2,7 @@ package section34Code;
 
 public class Lesson282InheritanceCourseCodeParent {
 
-	String name = "Rahul";
+	String name = "Parent String";
 
 	public Lesson282InheritanceCourseCodeParent() {
 		System.out.println("Parent class construtor");

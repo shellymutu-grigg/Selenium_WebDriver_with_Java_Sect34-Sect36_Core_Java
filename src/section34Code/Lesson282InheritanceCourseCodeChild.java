@@ -2,7 +2,7 @@ package section34Code;
 
 public class Lesson282InheritanceCourseCodeChild extends Lesson282InheritanceCourseCodeParent {
 
-	String name = "QAClickAcademy";
+	String name = "Child string";
 
 	public Lesson282InheritanceCourseCodeChild() {
 		super();// this should be always be at first line
