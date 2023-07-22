@@ -4,10 +4,11 @@ import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Lesson294DatClass {
+public class Lesson294DateClass {
 
 	public static void main(String[] args) {
 
+		// Working with dates via the Date class
 		Date date = new Date();
 
 		// Print out current date time
