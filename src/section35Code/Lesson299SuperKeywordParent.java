@@ -1,6 +1,6 @@
 package section35Code;
 
-public class Lesson299Parent {
+public class Lesson299SuperKeywordParent {
 
 	String name = "Parent string";
 

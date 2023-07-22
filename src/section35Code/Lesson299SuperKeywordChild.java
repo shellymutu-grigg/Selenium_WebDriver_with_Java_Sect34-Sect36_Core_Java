@@ -2,7 +2,7 @@ package section35Code;
 
 import java.text.MessageFormat;
 
-public class Lesson299Child extends Lesson299Parent {
+public class Lesson299SuperKeywordChild extends Lesson299SuperKeywordParent {
 
 	// Will always give preference to the local class
 	String name = "Child string";
@@ -16,8 +16,8 @@ public class Lesson299Child extends Lesson299Parent {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Lesson299Child lesson299Child = new Lesson299Child();
-		lesson299Child.getStringData();
+		Lesson299SuperKeywordChild lesson299SuperKeywordChild = new Lesson299SuperKeywordChild();
+		lesson299SuperKeywordChild.getStringData();
 	}
 
 }
