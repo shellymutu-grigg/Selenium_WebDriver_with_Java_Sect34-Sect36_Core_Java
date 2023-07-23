@@ -55,7 +55,6 @@ public class Lesson281 {
 	- super
 	- try, catch, finally
 	- final
-	- default
 	- static
 	
 	Lesson 304 Revision keywords:
@@ -74,6 +73,12 @@ public class Lesson281 {
 	  if both A & B belong to the same package
 	
 	Lesson 306:
-	- public
-	- private
-	- protected  
+	*Access modifiers* are keywords that can be used to control the visibility of 
+	fields, methods, and constructors in a class. The four access modifiers in Java 
+	are: public, protected, default, and private.
+	- public  // Access across packages 
+	- default // If access modifier is not specified then the method is accessable 
+	  ONLY within the package.  Will not be able to access functionality even if 
+	  package is imported
+	  
+  
