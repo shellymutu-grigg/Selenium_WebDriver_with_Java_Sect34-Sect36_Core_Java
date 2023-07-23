@@ -55,16 +55,25 @@ public class Lesson281 {
 	- super
 	- try, catch, finally
 	- final
-	- public
-	- private
-	- protected
 	- default
 	- static
 	
-	- packages
-	- import
+	Lesson 304 Revision keywords:
+	- packages // Set of classes interface
+		- java.lang is a default inbuilt java package provided at runtime 
+		  so don't need to define in class
 	- inhertitance
 	- interfaces
 	- runtime
 	- polymorphisms
 	- strings
+	
+	Lesson 305:
+	- import
+	- Class A can utilise Class B directly by creating an object 
+	  if both A & B belong to the same package
+	
+	Lesson 306:
+	- public
+	- private
+	- protected  
