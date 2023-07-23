@@ -80,5 +80,10 @@ public class Lesson281 {
 	- default // If access modifier is not specified then the method is accessable 
 	  ONLY within the package.  Will not be able to access functionality even if 
 	  package is imported
-	  
+	
+	Lesson 307:
+	- private // Access modifier means that cannot access method or variable outside 
+	  of the class
+	- protected // Access modifier means that variable or method are only accessable 
+	  by child classes in external packages.  Classes of same package able to access.	  
   
