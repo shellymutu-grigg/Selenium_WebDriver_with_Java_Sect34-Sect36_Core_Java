@@ -17,16 +17,17 @@ public class Lesson308Exceptions {
 
 		Lesson308Exceptions lesson308 = new Lesson308Exceptions();
 
-		// Catu
+		// Catch errors using try/catch
 		try {
+
 			int error = b / c;
+
+			// Triggers ArithmeticException
 			lesson308.getData();
 
 		} catch (Exception e) {
 			System.out.println(
-					MessageFormat.format("Error' of type: {0}, with error: {1}", e.toString(), e.getMessage()));
-		} finally {
-
+					MessageFormat.format("Exception of type: {0}, with error: {1}", e.toString(), e.getMessage()));
 		}
 	}
 
