@@ -13,3 +13,9 @@ Java Collections
 	- Arrays have a fixed memory size that has to be defined
 	- ArrayList can grow or shrink dynamically
 	- Can insert and access any value at any index in an ArrayList
+	
+	Lesson 316:
+	## Differences between List vs Set interface
+	- Set will not allow duplicate values
+	- Set cannot rely on new objects being added in a sequential order
+	- HashSet TreeSet, LinkedHasSet implement the Set interface

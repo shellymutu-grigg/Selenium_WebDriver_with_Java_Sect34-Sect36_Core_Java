@@ -17,6 +17,9 @@ public class Lesson313ArrayList {
 		System.out.println(MessageFormat.format("arrayList value: {0}", arrayList));
 		arrayList.remove(1);
 		System.out.println(MessageFormat.format("arrayList value: {0}", arrayList));
+		arrayList.add("Object_02");
+		arrayList.add("Object_02");
+		System.out.println(MessageFormat.format("arrayList value: {0}", arrayList));
 		System.out.println(MessageFormat.format("arrayList value at 4 {0}", arrayList.get(1)));
 		System.out.println(
 				MessageFormat.format("Does arrayList contain 'Object_05': {0}", arrayList.contains("Object_05")));
