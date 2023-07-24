@@ -19,3 +19,15 @@ Java Collections
 	- Set will not allow duplicate values
 	- Set cannot rely on new objects being added in a sequential order
 	- HashSet TreeSet, LinkedHasSet implement the Set interface
+	
+	Lesson 320:
+	## Differences between a HaspMap and a HashTable
+	- HashMap is NOT synchronised and is nNOT threadsafe
+	- HashTable IS synchronised and IS threadsafe
+	- When to use a HashMap?: When your application is not implementing threads
+	- When to use a HashTable?: When your application IS implementing threads
+	- HashMap permits null values in keys and values
+	- HashTable will not allow null values in keys or values
+	- HashMap are able to be iterated through using its iterator.
+	- HashTable is the only other class apart from Vector that uses an enumerator 
+	  to iterate values of HashTable instead
